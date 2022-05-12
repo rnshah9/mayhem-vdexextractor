@@ -1,0 +1,6 @@
+project: rnshah9/mayhem-vdexextractor
+target: vdexextractor
+
+cmds:
+  - cmd: /repo/bin/vdexExtractor -i @@
+    filepath: /test.vdex
