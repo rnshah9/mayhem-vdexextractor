@@ -14,3 +14,5 @@ cmds:
     filepath: /test.vdex
   - cmd: /repo/bin/vdexExtractor --deps --no-unquicken -i @@
     filepath: /test.vdex
+  - cmd: /repo/bin/vdexExtractor --deps --no-unquicken --dis -i @@ --log-file=log
+    filepath: /test.vdex
