@@ -4,3 +4,7 @@ target: vdexextractor
 cmds:
   - cmd: /repo/bin/vdexExtractor -i @@
     filepath: /test.vdex
+  - cmd: /repo/bin/vdexExtractor --no-unquicken -i @@
+    filepath: /test.vdex
+  - cmd: /repo/bin/vdexExtractor --get-api -i @@
+    filepath: /test.vdex
