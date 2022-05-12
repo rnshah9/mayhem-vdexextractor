@@ -8,3 +8,9 @@ cmds:
     filepath: /test.vdex
   - cmd: /repo/bin/vdexExtractor --get-api -i @@
     filepath: /test.vdex
+  - cmd: /repo/bin/vdexExtractor --no-unquicken --get-api -i @@
+    filepath: /test.vdex
+  - cmd: /repo/bin/vdexExtractor --deps -i @@
+    filepath: /test.vdex
+  - cmd: /repo/bin/vdexExtractor --deps --no-unquicken -i @@
+    filepath: /test.vdex
